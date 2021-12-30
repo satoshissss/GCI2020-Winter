@@ -10,9 +10,9 @@
 - その他詳しいことは[公式リンク](https://gci.t.u-tokyo.ac.jp/gci-2020-winter/)を見た方が早いかも
 - カリキュラムは以下の通り
 
-<div style="text-align: center">
-<img src="resources/GCI2020-Winter-カリキュラム.png" width="50%" >
-</div>
+<img src="resources/GCI2020-Winter-カリキュラム.png" width="75%">
+引用: https://gci.t.u-tokyo.ac.jp/gci-2020-winter/
+
 
 ## このリポジトリの作成経緯
 - 自分がプログラミング、データサイエンスやKaggleに触れるきっかけになったのがこの講座でした
