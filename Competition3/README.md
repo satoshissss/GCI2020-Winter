@@ -1,5 +1,6 @@
 # Demand Forecast
 
+平成25年1月~平成27年9月の売り上げ履歴のデータから、その翌月である平成27年10月の売り上げ(単位: 個数/月)をするコンペでした
 
 ## 実行環境
 Google Colaboratory
@@ -10,16 +11,10 @@ Google Colaboratory
 
 ## やったこと
 
-- 再現性の確保のためにモデルを鋳潰して保存
-- 集約特徴理や特徴量削減などといった特徴量エンジニアリング
-- あとは、スコアの底上げのためにoputnaでハイパラのチューニング
+- EDA, 特徴量エンジニアリングや学習気のアンサンブルをおこないました
 - (当時の自分が)ノートブックにコメントで解説をいれてました
-- 再現性の確保のために準備したモデルはgitに置いてないので必要に応じて、`save_items.txt`内のリンクか、[こちら](https://drive.google.com/file/d/1R_5tHcsnTNqGWRaWwlZoi-dQG1m3wgIv/view?usp=sharing)からダウンロードしてください
+- メモリが足りなくてcolabが再読み込みになった場合はimport library and function(importの部分)を実行後、model training(xgb+lgb+cat)以下から実行すると切り回せた気がします
 
 ## 感想や反省点
-
-- タイタニックの時と比べるとカラムが多くて戸惑った記憶がありますが、その分上で書いていることをやるキッカケになり、そのときの考え方が今でもそのまま役にたってます。
-
-
-
-※メモリが足りなくてcolabが再読み込みになった場合はimport library and function(importの部分)を実行後、model training(xgb+lgb+cat)以下から実行してください
+- この頃から関数を作るようになっていて少しほのぼのしました
+- 今思うとLSTMなどのNN系の学習器を使っても良かったのでは？と思いました
