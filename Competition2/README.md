@@ -6,7 +6,7 @@
 Google Colaboratory
 
 ## 結果
-#### 順位: 5位
+#### 順位: 位
 #### `Private LB`: 記録なし, `Public LB`: 記録なし
 
 ## やったこと
