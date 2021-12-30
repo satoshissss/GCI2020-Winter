@@ -2,6 +2,9 @@
 
 [こちらもタイタニックと同様にKaggleのホームクレジット](https://www.kaggle.com/c/home-credit-default-risk/)に限りなく近いコンペ、Kaggleの方はテーブルが複数あったがこちらは1枚のテーブルしかなかったです.
 
+## 実行環境
+Google Colaboratory
+
 ## 結果
 #### 順位: 5位
 #### `Private LB`: 記録なし, `Public LB`: 記録なし
